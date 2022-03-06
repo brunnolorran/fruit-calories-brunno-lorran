@@ -28,6 +28,6 @@ button, svg {
 
 
 }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;
