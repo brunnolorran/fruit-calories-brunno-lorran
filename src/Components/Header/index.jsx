@@ -14,7 +14,7 @@ const Header = () => {
             <a>Desafio</a>
           </li>
           <li>
-            <a>Repositório</a>
+            <a>Github</a>
           </li>
         </Menu>
       </Wrapper>

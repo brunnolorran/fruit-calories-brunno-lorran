@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 body, input, button {
     font: 14px Roboto, sans-serif;
     color: #171717;
-    background: #fff;
+    background: #ddd;
 }
 
 button, svg {
