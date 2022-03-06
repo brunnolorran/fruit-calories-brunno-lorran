@@ -1,13 +1,23 @@
+import { Wrapper, Menu, Title, SubTitle } from "./styles";
+
 const Header = () => {
   return (
     <>
-      <div className="wrapper">
-        <ul className="menu">
-          <li>Alpha</li>
-          <li>Beta</li>
-          <li>Gamma</li>
-        </ul>
-      </div>
+      <Title>Fruit Calories</Title>
+      <SubTitle>Desafio | DP Minds</SubTitle>
+      <Wrapper>
+        <Menu>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Desafio</a>
+          </li>
+          <li>
+            <a>Repositório</a>
+          </li>
+        </Menu>
+      </Wrapper>
     </>
   );
 };
