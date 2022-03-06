@@ -17,7 +17,7 @@ const Header = () => {
               <Link to="/challenge">Desafio</Link>
             </li>
             <li>
-              <Link to="/">Github</Link>
+              <a href="https://www.linkedin.com/in/brunnolorran/">Linkedin</a>
             </li>
           </ul>
         </Menu>

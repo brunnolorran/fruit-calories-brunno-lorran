@@ -36,6 +36,7 @@ export const Menu = styled.ul`
   li a {
     display: inline-block;
     padding: 10px 16px;
+    color: #171717;
   }
 
   li a:hover {

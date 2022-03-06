@@ -16,8 +16,9 @@ body, input, button {
     background: hsl(0, 0%, 98%);
 }
 
-button, svg, a, li {
+button, svg, a   {
     cursor: pointer;
+    text-decoration: none;
 }
 
 ul,
