@@ -1,4 +1,5 @@
-import Card from "../../Components/Card";
+import React from "react";
+import Card from "../../components/Card";
 import { AlignContainer } from "../styles-page";
 import { useState, useEffect } from "react";
 import axios from "axios";

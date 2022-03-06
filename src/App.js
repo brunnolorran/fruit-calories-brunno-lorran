@@ -1,25 +1,20 @@
-import Header from "./Components/Header";
-import Fruits from "./Pages/Fruits";
-import Challenge from "./Pages/Challenge";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from "./Styles/Global";
+
+import Header from "./components/Header";
+
+import Routes from "./routes";
 
 function App() {
   return (
-    <>
+    <Router>
       <div id="main-container">
         <Header />
-        <Router>
-          <Routes>
-            <Route path="/challenge" element={<Challenge />}></Route>
-          </Routes>
-          <Routes>
-            <Route path="/" element={<Fruits />}></Route>
-          </Routes>
-        </Router>
+        <Routes />
       </div>
       <GlobalStyle />
-    </>
+    </Router>
   );
 }
 
