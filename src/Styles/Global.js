@@ -13,10 +13,10 @@ export const GlobalStyle = createGlobalStyle`
 body, input, button {
     font: 14px Roboto, sans-serif;
     color: #171717;
-    background: #ddd;
+    background: hsl(0, 0%, 98%);
 }
 
-button, svg {
+button, svg, a {
     cursor: pointer;
 }
 
