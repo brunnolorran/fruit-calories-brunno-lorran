@@ -40,8 +40,9 @@ export const Menu = styled.ul`
 
   li a:hover {
     border-radius: 6px;
-    background: #ddd;
+    background: #45d3d3;
     transition: 0.3s;
+    color: #fff;
   }
 
   .menu li a {

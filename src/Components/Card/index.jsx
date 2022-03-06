@@ -1,4 +1,4 @@
-import { CardSize, Title, Text, Details } from "./styles";
+import { CardSize, Title, Text, Details, Portion } from "./styles";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 /* eslint-disable react/prop-types */
@@ -15,12 +15,22 @@ const Card = ({
     <>
       <CardSize>
         <Title>{name}</Title>
-        <Text>Calorias: {calories}</Text>
-        <Text>Proteina: {protein}</Text>
-        <Text>Carboidratos: {carbohydrates}</Text>
-        <Text>Fibra: {fiber}</Text>
-        <Text>Gordura: {blubber}</Text>
-        <Text>Porção: {portion}</Text>
+        <Portion>{portion}</Portion>
+        <Text>
+          Calorias <span>{calories}</span>
+        </Text>
+        <Text>
+          Proteina <span>{protein}</span>
+        </Text>
+        <Text>
+          Carboidratos <span>{carbohydrates}</span>
+        </Text>
+        <Text>
+          Fibra <span>{fiber}</span>x
+        </Text>
+        <Text>
+          Gordura <span>{blubber}</span>
+        </Text>
         <Details>
           Ver detalhes <HiOutlineArrowSmRight />
         </Details>
