@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Fruits from "./pages/Fruits";
-import Challenge from "./pages/Challenge";
-import Details from "./pages/Details";
+import Fruits from "./Pages/Fruits";
+import Challenge from "./Pages/Challenge";
+import Details from "./Pages/Details";
 
 const MainRoutes = () => {
   return (
