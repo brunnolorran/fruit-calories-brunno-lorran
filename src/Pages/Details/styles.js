@@ -17,7 +17,7 @@ export const Title = styled.h2`
 `;
 
 export const Image = styled.img`
-  max-width: 300px;
+  max-width: 200px;
 `;
 
 export const Portion = styled.h2`
