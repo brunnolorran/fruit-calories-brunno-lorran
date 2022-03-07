@@ -8,7 +8,7 @@ import axios from "axios";
 
 const Fruits = () => {
   const [getFruits, setGetFruits] = useState([]);
-  const URL_API = `http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json`;
+  const URL_API = `https://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json`;
   useEffect(() => {
     async function fetchFruits() {
       try {
