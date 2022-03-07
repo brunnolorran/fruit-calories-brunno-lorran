@@ -33,12 +33,14 @@ export const Text = styled.p`
   }
 `;
 
-export const Details = styled.a`
-  display: flex;
-  align-items: center;
-  margin-top: 1.3rem;
-  float: right;
-  font-size: 0.8rem;
-  color: hsl(234, 12%, 34%);
-  font-weight: 400;
+export const Details = styled.div`
+  a {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+    float: right;
+    font-size: 0.8rem;
+    color: hsl(234, 12%, 34%);
+    font-weight: 400;
+  }
 `;
